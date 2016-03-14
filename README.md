@@ -1,5 +1,5 @@
 #faster_curl
-* 一个基于PHP的异步非阻塞的http crul模块。
+一个基于PHP的异步非阻塞的http crul模块。
 
 ###要求：
 * 依赖pthreads：https://github.com/krakjoe/pthreads
