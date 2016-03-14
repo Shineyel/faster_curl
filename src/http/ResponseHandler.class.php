@@ -6,7 +6,7 @@ interface ResponseHandler {
      * corresponding to that response.
      *
      * @param CurlResponse The response to process
-     * @return array value determined by the response
+     * @return CurlResponse value determined by the response
      */
     public function handleResponse(CurlResponse $response);
 }

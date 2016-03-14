@@ -5,7 +5,6 @@ use \worker\CurlWorker;
 class CurlClient{
     private $workerPool = array();
     private $resultList = array();
-    private $options = array();
 
     public function execute(CurlRequest $request,$index) {
         $this->workerPool[$index] = new CurlWorker($request);
@@ -25,9 +24,5 @@ class CurlClient{
             return $this->resultList[$index];
         }
         return false;
-    }
-
-    public function setOpt(array $opt) {
-        $this->options = (array) $opt;
     }
 }
