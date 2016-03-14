@@ -5,9 +5,9 @@
 * 依赖[pthreads](https://github.com/krakjoe/pthreads)
 * [(PHP多线程)Pthreads安装&使用](http://shineyel.github.io/blogs/pthreads.html)
 
-###测试环境：
-* mac os 10.11.1
-* PHP 7.0.2
+###例子(tests目录)
+* PthreadTest.php：一个测试pthreads的例子
+* demo目录下为faster_curl的测试例子
 
 ###当前特性（v1.0）：
 * 支持异步请求http
